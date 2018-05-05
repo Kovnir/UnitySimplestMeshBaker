@@ -141,8 +141,13 @@ namespace MeshBaker.Editor
                 }
             }
 
+            int meshesCount = meshesWithoutMaterials.Count;
+            foreach (var bakedMeshes in meshesWithMaterials)
+            {
+                meshesCount += bakedMeshes.Value.Count;
+            }
             EditorUtility.DisplayDialog("Mesh Baker",
-                "Baked " + meshesWithMaterials.Count + " meshes.", "Cool!");
+                "Baked " + meshesCount + " meshes.", "Cool!");
         }
 
         private static bool FillDataAndCheckResolving(Dictionary<Material, List<Mesh>> meshesWithMaterials, List<Mesh> meshesWithoutMaterials)
