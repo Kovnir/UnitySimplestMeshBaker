@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace MeshBaker
+namespace SimplestMeshBaker
 {
     public class MeshBaker : EditorWindow
     {

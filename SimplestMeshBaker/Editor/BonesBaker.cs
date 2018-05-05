@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace MeshBaker
+namespace SimplestMeshBaker
 {
     [CanEditMultipleObjects]
     public class BonesBaker : EditorWindow
