@@ -8,9 +8,7 @@
 
 In addition, it contains a **Bone Baker**. It is a simple wrapper over [SkinnedMeshRenderer.BakeMesh()](https://docs.unity3d.com/ScriptReference/SkinnedMeshRenderer.BakeMesh.html) method, which allows you to convert `SkinnedMeshRendered` to `MeshRenderer` considering transformations and poses in two clicks.
 
-
 <br>
-
 ## How to use
 
 
@@ -31,14 +29,13 @@ Then **Mesh Baker** will ask you: "*Do you want to remove sources?*". Click "*Ye
 Then the plugin will show a popup with the number of baked objects.
 
 <br>
-<br>
 
 To use **Bones Baker**, select `GameObjects` with `SkinnedMeshRenderer` components on it or its children, make a right click and press **Bake Bones**.
 The plugin will ask you: "*Do you want to remove bones after backing?*". Press "*Yes*" if so, or "*No*" if you want to leave bones for now.
 
 
-<br>
 ## YouTube Tutorials
 
 [How to Bake Meshes](https://youtu.be/wtwlOkyxAw4)
+
 [How to Bake Bones](https://youtu.be/D6V7tXY23oc)
