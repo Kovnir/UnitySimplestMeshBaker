@@ -1,4 +1,4 @@
-## Description
+## DESCRIPTION
 
 **Mesh Baker** is a simple plugin that helps you bake several meshes to one.
 
