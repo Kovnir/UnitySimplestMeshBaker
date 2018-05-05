@@ -4,7 +4,7 @@ Also it contains Bone Baker. It is a simple wrapper over SkinnedMeshRenderer.Bak
 
 
 
-HOW TO USE:
+How to use:
 
 
 To install it copy MeshBaker folder into your project.
@@ -22,6 +22,12 @@ Than Mesh Baker will show popup with count of baked objects.
 To Bake Bones select GameObjects with SkinnedMeshRenderer components on it or on his childs, make a right click and press Bake Bones.
 The plugin will ask you "Do you want to remove bones after backing?". Press "Yes" if so, or "No" if you want to leave bones for now.
 
+
+
+YouTube Tutorials:
+
+How to Bake Meshes - https://youtu.be/wtwlOkyxAw4
+How to Bake Bones - https://youtu.be/D6V7tXY23oc
 
 
 
