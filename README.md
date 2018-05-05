@@ -8,7 +8,6 @@
 
 In addition, it contains a **Bone Baker**. It is a simple wrapper over [SkinnedMeshRenderer.BakeMesh()](https://docs.unity3d.com/ScriptReference/SkinnedMeshRenderer.BakeMesh.html) method, which allows you to convert `SkinnedMeshRendered` to `MeshRenderer` considering transformations and poses in two clicks.
 
-<br>
 ## How to use
 
 
