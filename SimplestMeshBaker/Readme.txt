@@ -26,8 +26,8 @@ The plugin will ask you "Do you want to remove bones after backing?". Press "Yes
 
 YouTube Tutorials:
 
-How to Bake Meshes - https://youtu.be/wtwlOkyxAw4
-How to Bake Bones - https://youtu.be/D6V7tXY23oc
+How to Bake Meshes - https://youtu.be/UxkcC0uZ6D8
+How to Bake Bones - https://youtu.be/95zAFspba1E
 
 
 
