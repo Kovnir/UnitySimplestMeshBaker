@@ -58,7 +58,7 @@ namespace SimplestMeshBaker
             bool separateObjectsWithDifferentMaterials = false;
             if (meshesWithMaterials.Count + (meshesWithoutMaterials.Count > 0 ? 1 : 0) > 1)
             {
-                separateObjectsWithDifferentMaterials = EditorUtility.DisplayDialog("Mesh Baker",
+                separateObjectsWithDifferentMaterials = EditorUtility.DisplayDialog("Simplest Mesh Baker",
                     "Do you want to separate objects with different materials?", "Yes", "No");
             }
 
@@ -128,7 +128,7 @@ namespace SimplestMeshBaker
                 }
             }
 
-            if (EditorUtility.DisplayDialog("Mesh Baker",
+            if (EditorUtility.DisplayDialog("Simplest Mesh Baker",
                 "Do you want to remove sources?", "Yes", "No"))
             {
                 foreach (GameObject selected in Selection.gameObjects)
@@ -145,7 +145,7 @@ namespace SimplestMeshBaker
             {
                 meshesCount += bakedMeshes.Value.Count;
             }
-            EditorUtility.DisplayDialog("Mesh Baker",
+            EditorUtility.DisplayDialog("Simplest Mesh Baker",
                 "Baked " + meshesCount + " meshes.", "Cool!");
         }
 
@@ -249,7 +249,7 @@ namespace SimplestMeshBaker
         {
             if (has && hasNot)
             {
-                var result = EditorUtility.DisplayDialogComplex("Mesh Baker",
+                var result = EditorUtility.DisplayDialogComplex("Simplest Mesh Baker",
                     "Not all objects used " + property + ".",
                     "Don't use " + property, //0
                     "Cancel", //1

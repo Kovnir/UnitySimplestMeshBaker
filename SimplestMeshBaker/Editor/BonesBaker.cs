@@ -32,7 +32,7 @@ namespace SimplestMeshBaker
                 }
             }
             
-            QuestionResult questionResult = (QuestionResult) EditorUtility.DisplayDialogComplex("Mesh Baker", "Do you want to remove bones after backing?", "Yes", "Cancel", "No");
+            QuestionResult questionResult = (QuestionResult) EditorUtility.DisplayDialogComplex("Simplest Mesh Baker", "Do you want to remove bones after backing?", "Yes", "Cancel", "No");
 
             if (questionResult == QuestionResult.Cancel)
             {
@@ -56,7 +56,7 @@ namespace SimplestMeshBaker
                     }
                 }
             }
-            EditorUtility.DisplayDialog("Mesh Baker", "Baked " + count + " objects.",
+            EditorUtility.DisplayDialog("Simplest Mesh Baker", "Baked " + count + " objects.",
                 count == 0 ? "Hm, Ok." : "Great, thanks!");
         }
 
