@@ -5,7 +5,7 @@ using UnityEngine;
 namespace SimplestMeshBaker
 {
     [CanEditMultipleObjects]
-    public class BonesBaker : EditorWindow
+    public static class BonesBaker
     {
         private const int YES = 0;
         private const int NO = 2;
