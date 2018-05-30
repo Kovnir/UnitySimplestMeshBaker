@@ -7,7 +7,7 @@ namespace SimplestMeshBaker
 {
     //Code based on this topic:
     //https://answers.unity.com/questions/625243/combining-skinned-meshes-1.html
-    public class SkinnedMeshRendererCombiner : MonoBehaviour
+    public static class SkinnedMeshRendererCombiner
     {
         [MenuItem("GameObject/Combine SkinnedMeshRenderers", false, 0)]
         private static void Bake(MenuCommand menuCommand)
