@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
@@ -26,6 +27,7 @@ namespace SimplestMeshBaker
         [MenuItem("GameObject/Bake Meshes", false, 0)]
         private static void BakeMeshes(MenuCommand menuCommand)
         {
+
             if (Selection.objects.Length == 0)
             {
                 return;
@@ -131,11 +133,13 @@ namespace SimplestMeshBaker
             if (EditorUtility.DisplayDialog("Simplest Mesh Baker",
                 "Do you want to remove sources?", "Yes", "No"))
             {
+                HashSet<GameObject> gos = new HashSet<GameObject>();
                 foreach (GameObject selected in Selection.gameObjects)
                 {
-                    if (selected != null)
+                    if (selected != null && !gos.Contains(selected))
                     {
                         Undo.DestroyObjectImmediate(selected);
+                        gos.Add(selected);
                     }
                 }
             }
