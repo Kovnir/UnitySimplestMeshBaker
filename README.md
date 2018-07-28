@@ -1,7 +1,8 @@
 ## Description
 
 **Simplest Mesh Baker** is a small plugin that helps you bake several meshes to one in couple clicks.
-[Download from asset store](https://assetstore.unity.com/packages/tools/utilities/simplest-mesh-baker-118123)
+
+[Download from Asset Store](https://assetstore.unity.com/packages/tools/utilities/simplest-mesh-baker-118123)
 
 ![Alt Text](MeshBaking.gif)
 
@@ -9,7 +10,7 @@
 
 In addition, it contains a **Bone Baker**. It is a simple wrapper over [SkinnedMeshRenderer.BakeMesh()](https://docs.unity3d.com/ScriptReference/SkinnedMeshRenderer.BakeMesh.html) method, which allows you to convert `SkinnedMeshRendered` to `MeshRenderer` considering transformations and poses.
 
-*Supported Unity versions:* 5.6.3 or higher
+**Supported Unity versions:** 5.6.3 or higher
 
 ## How to use
 
