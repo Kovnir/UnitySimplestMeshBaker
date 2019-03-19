@@ -4,7 +4,7 @@
 
 [Download from Asset Store](https://assetstore.unity.com/packages/tools/utilities/simplest-mesh-baker-118123)
 
-![Alt Text](MeshBaking.gif)
+![Example](MeshBaking.gif)
 
 
 
