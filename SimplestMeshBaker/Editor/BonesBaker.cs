@@ -76,6 +76,10 @@ namespace SimplestMeshBaker
                 }
                 //and remove it
                 Undo.DestroyObjectImmediate(skinnedMeshRenderer);
+
+                // Generate UV2 for Lightmapping
+                Unwrapping.GenerateSecondaryUVSet(newMesh);
+
                 //add and setup meshFilter and meshRenderer
                 MeshFilter meshFilter = Undo.AddComponent<MeshFilter>(gameObject);
                 meshFilter.mesh = newMesh;
